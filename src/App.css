@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+/* Estilos para resaltar las preguntas */
+h2 {
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+  padding: 10px; /* Espaciado interior para las preguntas */
+}
+
+/* Estilos para el listado de respuestas */
+ul {
+  list-style: inside; /* Puntos del listado dentro del contenedor */
+  color: black; /* Color del texto de las respuestas */
+}
+
+li {
+  padding: 5px; /* Espaciado interior para las respuestas */
+}
+
+/* Alineado a la izquierda */
+div {
+  text-align: left; /* Alineado de las preguntas y respuestas a la izquierda */
+}
